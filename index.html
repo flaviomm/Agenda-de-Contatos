@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Agenda Virtual</h1>
+
+        <form>
+            <input id="nomeContato" type="text" placeholder="Nome" required>
+            <input id="numeroContato" type="tel" placeholder="Telefone"  pattern="[0-9]*" maxlength="11" required>
+            <button type="submit">CADASTRAR</button>
+        </form>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
